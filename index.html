@@ -10,12 +10,13 @@
 
       .header {
           background-color: #FFDBAA;
-          padding: 20px;
+          padding: 40px;
       }
 
-      .company-name {
+      .site-name {
           float: left;
           font-size: 24px;
+          font-weight: bold;
           color: #805215;
       }
 
@@ -32,15 +33,15 @@
       }
 
       .boxes {
-          padding: 20px;
-      }
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        }
 
       .box {
           background-color: white;
-          width: 300px;
+          width: 200px;
           padding: 20px;
-          margin: 60px;
-          display: inline-block;
+          margin: 40px;
           box-shadow: 5px 5px 10px grey;
       }
 
@@ -63,7 +64,8 @@
 
   <body>
     <div class="header">
-        <div class="company-name">PUERTO RICO AIRLINES</div>
+        <div class="site-name">PUERTO RICO AIRLINES
+        </div>
         <div class="nav-buttons">
             <button>HOME</button>
             <button>FLIGHTS</button>
